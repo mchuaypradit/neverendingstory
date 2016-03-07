@@ -32,7 +32,7 @@ Psuedo Classes ╭∩╮(︶︿︶)╭∩╮
 ******************************/
 
 .contact a:link {
-	color: #fff;
+	color: #000033;
 	text-decoration: none;
 }
 
@@ -40,9 +40,8 @@ Psuedo Classes ╭∩╮(︶︿︶)╭∩╮
 	color: #a6b8e9;
 }
 
-.accordion a:hover {
-	color: white;
-	background-color: #000033;
+.contact a:visited {
+	color: #000033;
 }
 
 /*****************************
@@ -145,12 +144,6 @@ h6 {
 	margin-right: 1.25rem;
 }
 
-/*.about,
-.contact {
-	background-color: #000033;
-	color: #fff;
-}*/
-
 
 .about h5,
 .contact h5,
@@ -171,64 +164,57 @@ Media Queries ╭∩╮(︶︿︶)╭∩╮
 
 @media screen and (min-width: 40em) {
 
+	h1 {
+	font-size: 3.5rem;
 
-h1 {
-font-size: 3.5rem;
+	}
 
-}
+	h2 {
+		font-size: 2rem;
+	}
+	h4 {
+		font-size: 1.3rem;
+	}
 
-h2 {
-	font-size: 2rem;
-}
-h4 {
-	font-size: 1.3rem;
-}
+	h5 {
+		margin-bottom: 0; 
+	}
 
-.content-size,
-.content-size-top {
-	margin: auto;
-	padding-bottom: 1rem;
-	max-width: 65rem;
-}
-
-/*.v-align {
-	padding-top: 65px;
-	padding-bottom: 65px;
-	min-height: 150px;
-}*/
-
-h5 {
-	margin-bottom: 0; 
-}
+	.content-size,
+	.content-size-top {
+		margin: auto;
+		padding-bottom: 1rem;
+		max-width: 65rem;
+	}
 
 }
 
 @media screen and (min-width: 64em) {
 
-h1 {
-	font-size: 6em;
-	top: 60%;
-}
+	h1 {
+		font-size: 6em;
+		top: 60%;
+	}
 
-.accordion-title.date {
-	width: 50em;
-}
+	.accordion-title.date {
+		width: 50em;
+	}
 
-.content-size-top {
- 	margin: auto;
- 	padding-bottom: 1rem;
- 	width: 100%;
- }
+	.content-size-top {
+	 	margin: auto;
+	 	padding-bottom: 1rem;
+	 	width: 100%;
+	 }
 
-.content-text {
-	margin-left: 8rem;
-	margin-right: 8rem;
-}
+	.content-text {
+		margin-left: 8rem;
+		margin-right: 8rem;
+	}
 
-.reveal-modal img{
-	text-align: center;
+	.reveal-modal img{
+		text-align: center;
 
-}
+	}
 
 }
 

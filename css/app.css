@@ -58,7 +58,7 @@ h1 {
 	margin: 0 auto;
 	position: absolute;
 	z-index: 3;
-	top: 10rem;
+	top: 13rem;
 	width: 100%;
 }
 
@@ -192,8 +192,8 @@ Media Queries ╭∩╮(︶︿︶)╭∩╮
 @media screen and (min-width: 64em) {
 
 	h1 {
-		font-size: 6em;
-		top: 40%;
+		font-size: 5em;
+		top: 45%;
 	}
 
 	.accordion-title.date {

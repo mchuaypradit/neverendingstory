@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Superslides - A fullscreen slider for jQuery</title>
+  <link rel="stylesheet" href="../dist/stylesheets/superslides.css">
+</head>
+<body>
+  <div id="slides">
+    <div class="slides-container">
+      <img src="images/people.jpeg" id="people">
+      <img src="images/surly.jpeg" width="1024" height="682" alt="Surly">
+      <img src="images/surly.jpeg" width="1024" height="682" alt="Surly">
+    </div>
+
+    <nav class="slides-navigation">
+      <a href="#" class="next">></a>
+      <a href="#" class="prev"><</a>
+    </nav>
+
+    <p class="text">fsldjgl;gjd</p>
+  </div>
+
+   <div class="expanded row">
+      <div class="medium-12 large-12 columns">
+        <h1 class="text-center">THE NEVERENDING STORY...</h1>
+      </div>
+    </div>
+
+    <div class="content-size-top row">
+      <div class="medium-12 columns">
+        <h2>a car's slow journey through life.</h2>
+        <p class="top-padding" style="text-indent: 20px;">Shank swine prosciutto shoulder meatloaf cow porchetta. Strip steak pig jerky, tri-tip pancetta ground round fatback andouille shoulder pastrami. Pancetta brisket pig chicken pork loin. Kielbasa pork chop ham sirloin chuck alcatra turkey pig corned beef pork flank brisket venison sausage cupim. Drumstick porchetta boudin, corned beef ham ham hock cow fatback turducken swine pork belly capicola.</p>
+      </div>
+    </div>
+
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="javascripts/jquery.easing.1.3.js"></script>
+  <script src="javascripts/jquery.animate-enhanced.min.js"></script>
+  <script src="../dist/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+    $(function() {
+      $('#slides').superslides({
+        hashchange: true
+      });
+    });
+  </script>
+</body>
+</html>

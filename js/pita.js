@@ -1,24 +1,32 @@
-$(document).ready(function(){
-        $('.container').addClass("hidden");
+// $(function() {
+//   $('#slides').superslides({
+//     hashchange: true
+//   });
+// });
 
-        $('.container').click(function() {
-            var $this = $(this);
 
-            if ($this.hasClass("hidden")) {
-                $(this).removeClass("hidden").addClass("visible");
 
-            } else {
-                $(this).removeClass("visible").addClass("hidden");
-            }
-        });
+
+$(document).ready(function() {
+$(".swiper-container").swiper({
+        // pagination: '.swiper-pagination',
+        // slidesPerView: 1,
+        // paginationClickable: true,
+        // spaceBetween: 30,
+        // keyboardControl: true,
+        // nextButton: '.swiper-button-next',
+        // prevButton: '.swiper-button-prev',
+
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30,
+        keyboardControl: true,
+        effect: 'fade'
     });
 
-$(function() {
-  $('#slides').superslides({
-    hashchange: true
-  });
 });
-
 // $(document).ready(function() {
  
 //   $(".owl-carousel").owlCarousel({

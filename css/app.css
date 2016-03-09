@@ -67,7 +67,7 @@ h1 {
 	margin: 0 auto;
 	position: absolute;
 	z-index: 3;
-	top: 30%;
+	top: 47%;
 	width: 100%;
 }
 
@@ -175,7 +175,7 @@ Media Queries ╭∩╮(︶︿︶)╭∩╮
 
 	h1 {
 	font-size: 3.5rem;
-	top: 40%;
+	top: 45%;
 	}
 
 	h2 {
@@ -202,7 +202,7 @@ Media Queries ╭∩╮(︶︿︶)╭∩╮
 
 	h1 {
 		font-size: 5em;
-		top: 45%;
+		top: 42%;
 	}
 
 	.accordion-title.date {
@@ -326,6 +326,7 @@ Swiper Styling ╭∩╮(︶︿︶)╭∩╮
     background: #fff;
     background-position: center;
     background-size: cover;
+
 
     /* Center slide text vertically */
     display: -webkit-box;

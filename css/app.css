@@ -1,5 +1,5 @@
 /*****************************
-General Styling ╭∩╮(︶︿︶)╭∩╮
+General Styling
 ******************************/
 
 body {
@@ -25,7 +25,7 @@ p.footer {
 }
 
 /*****************************
-Psuedo Classes ╭∩╮(︶︿︶)╭∩╮
+Psuedo Classes 
 ******************************/
 
 .accordion-title:hover {
@@ -47,7 +47,7 @@ Psuedo Classes ╭∩╮(︶︿︶)╭∩╮
 }
 
 /*****************************
-Body Styling ╭∩╮(︶︿︶)╭∩╮
+Body Styling 
 ******************************/
 
 h1 {
@@ -221,7 +221,7 @@ Media Queries ╭∩╮(︶︿︶)╭∩╮
 }
 
 /*****************************
-Swiper Styling ╭∩╮(︶︿︶)╭∩╮
+Swiper Styling 
 ******************************/	
 .swiper-container {
     width: 100%;

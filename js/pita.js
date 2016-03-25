@@ -23,7 +23,8 @@ $(".swiper-container").swiper({
         prevButton: '.swiper-button-prev',
         spaceBetween: 30,
         keyboardControl: true,
-        effect: 'fade'
+        effect: 'fade',
+        grabCursor: true
     });
 
 });
